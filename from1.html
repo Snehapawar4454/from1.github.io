@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration from</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title"><h1>Registration</h1></div>
+        <form action="#">
+            <div class="user-details">
+                
+                <div class="input-box">
+                    <span class="details"><b>Full Name</b></span>
+                    <input type="text" placeholder="Enter your full name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details"><b>email</b></span>
+                    <input type="text" placeholder="Enter your email" required>
+                </div>
+                <div class="input-box">
+                    <span class="details"><b>phone Number</b></span>
+                    <input type="text" placeholder="Enter your Number" maxlength="10" required>
+                </div>
+                <div class="input-box">
+                <span class="upload"><b>upload your Resume</b></span> 
+        <input type="file" name="pdf"id="multiple" placeholder="Enter your Number" required>
+    </div>
+    <div class="input-box">
+    <span class="DOB">DOB:</span> 
+    <input type="date" name="DOB"id="DOB" placeholder="enter your birth date" required>
+</div>
+
+                <div class="input-box">
+                    <span class="details"><b>password</b></span>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <div class="input-box">
+                    <span class="details"><b>confirm password</b></span>
+                    <input type="password" id="password" name="password" placeholder="confirm password" required>
+                </div>
+            </div>
+            <div class="gender-details">
+                <span class="gender-title"><b>Gender</b></span>
+                
+                <div class="category">
+                    <label for="">
+                        <span class="dot one"></span> 
+                        <span class="Gender">Male</span> 
+                        <input type="radio" placeholder="Enter your password" required> 
+                    </label>
+                    <label for="">
+                        <span class="dot one"></span> 
+                        <span class="Gender">female</span>
+                        <input type="radio" placeholder="Enter your password" required>  
+                    </label>  
+                </div><br>
+                <div class="Email">
+                <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        </div><br>
+        <div class="input-box">
+        <span class="details"><b>Login page</b></span>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+        </div>
+    </div>
+                <div class="button">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
